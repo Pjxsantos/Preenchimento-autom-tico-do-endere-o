@@ -1,0 +1,28 @@
+/* css */
+.px-auth-section{padding:30px 40px; width:70%; margin-left: auto; margin-right: auto; background-color:rgba(255,255,255,.9);font-family:OpenSans,sans-serif;color:#65655d;border-radius:4px}html[data-range=small] 
+.px-auth-section,html[data-range=xsmall] 
+.px-auth-section{padding:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.px-auth-section--border{-webkit-box-shadow:0 19px 38px 8px rgba(0,0,0,.3);-moz-box-shadow:0 19px 38px 8px rgba(0,0,0,.3);box-shadow:0 19px 38px 8px rgba(0,0,0,.3)}
+.px-auth-section__area input{position:relative;z-index:1;width:100%;padding-bottom:5px;margin-bottom:5px;border-width:0 0 1px;border-style:solid;border-color:#ccc;outline:0;background-color:transparent}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

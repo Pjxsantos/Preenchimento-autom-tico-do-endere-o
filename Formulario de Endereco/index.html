@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 class="px-auth-section" >Preenchimento automático do endereço</h1>
+    <br/>
+    <section class="px-auth-section px-auth-section--border">
+      <h1 class="">Formulário de Cadastro</h1>
+      <div class="px-auth-section__area">
+        <form action="form.php" method="post">
+          <p class="">CEP</p>
+          <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" required>
+          <p class="">Rua</p>
+          <input name="rua" type="text" id="rua" size="60" />
+          <p class="">Numero</p>
+          <input name="numero" type="text" id="numero" size="60" />
+          <p class="">Bairro</p>
+          <input name="bairro" type="text" id="bairro" size="40" />
+          <p class="">Cidade</p>
+          <input name="cidade" type="text" id="cidade" size="40" />
+          <p class="">UF</p>
+          <input name="uf" type="text" id="uf" size="2" />
+          <p class="">Ibge</p>
+          <input name="ibge" type="text" id="ibge" size="2" />
+          <br/><br/>
+          <button class="button button1" type="submit">Enviar</button>
+        </form>
+    </section>
+    </br>
+    <!-- Adicionando JQuery -->
+    <script src="js/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <!-- Adicionando Javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
